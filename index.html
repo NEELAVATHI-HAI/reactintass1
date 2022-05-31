@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol type="1">
+        <li>
+            <b>what is react?what are its features?</b>
+            <br>
+            <p>
+                React was created by Jordane Walke,a software engineer at facebook in the year 2011 and it was deployed first at the facebook, newsfed and later it was used in facebook and instagram.
+                React is an open source,frontend js library.It follows the componentbased approach for building reusable UI components specially for single page application and it is used for developing interactive
+                view layer of web and mobile application.
+                <ul>
+                    Features:
+                    <li>Virtual Dom</li>
+                    <li>one way data binding</li>
+                    <li>Reusable Component</li>
+                    <li>Jsx</li>
+
+                </ul>
+                </p>
+            </li>
+            <li>
+                <b>Explain Virtual Dom?</b><br>
+                <p>
+                    DOM is a document object model, created by converting HTML CSS and JS Real DOM, which is an object which gets created whenever any React application gets loaded on the screen for the first time.,
+                     whenever React components gets mounted on the screen for the first time. Now when any user makes any changes 
+                     on the screen like button click because of which the state variable will get
+                      updated so in this case the changes will not directly go to Real DOM ,
+                     instead in react we have concept known Virtual DOM. So we are having two virtual doms,
+                      one virtual dom gets created at the time of mounting of react component so it is a copy of your real dom. 
+                      Another virtual dom is the dom which contains the new changes, updated state variables values.
+                       Now these two virtual doms will get compared with each other and will check for the new changes. 
+                       this complete procedure is known as diffing algorithm. Now the new changes will be updated in your Real dom.
+                        this procedure is known as Recoinciliation.
+                </p>
+                </li>
+            
+        
+        <li>
+            <b>
+                what is diffing algorithm?
+
+            </b>
+            <br>
+            <p>
+                these two virtual doms will get compared with each other and will check for the new changes. 
+                       this complete procedure is known as diffing algorithm.
+
+            </p>
+            <br>
+        </li>
+        <li>
+            <b>
+                what is Recoinciliation?
+
+            </b>
+            <p>
+                the new changes will be updated in your Real dom.
+                        this procedure is known as Recoinciliation.
+            </p>
+        </li>
+        <li>
+            <b>
+                what is the difference between functional and class components?
+            </b>
+            <p>
+                A functional component is just a plain JavaScript function that accepts props as an argument and returns a React element.	A class component requires you to extend from React.
+                simply accept data and display them in some form, that they are mainly responsible for rendering UI.	Also known as Stateful components because they implement logic and state.
+React lifecycle methods (for example, componentDidMount) cannot be used in functional components.	React lifecycle methods can be used inside class components (for example, componentDidMount).
+Hooks can be easily used in functional components to make them Stateful.
+Constructors are not used.	Constructor are used as it needs to store state.
+            </p>
+        </li>
+        <li>
+           <b> what is difference between statefull and stateless ?</b>
+           <p>
+            Stateful Protocols require the server to save the state of a process.	Stateless Protocols do not need the server to save the state of a process.
+            Response mechanism	Stateful expects a response and if no answer is received, the request is resent.	In stateless, the client sends a request to a server, which the server responds to based on the state of the request.
+            Design complexity	This makes the design heavy and complex since data needs to be stored.	Server design is simplified in this case. 
+            Requirement of Server	The server is required to store and save status information and details of sessions.	No server is needed for data storage.
+            Dependency	Server and Client are tightly coupled, as in extremely interdependent on each other.	Server and Client are more independent and hence, loosely coupled.
+            Transaction Handling	Transaction handling is relatively slow in the stateful protocol.	This is relatively faster in the stateless protocol.
+            Implementation	They are logically heavy to implement.	They are easy to implement.
+            Functioning after a crash	Since stateful protocols need to store data regarding the sessions, once the crash occurs, all the stored data is lost. Hence, it doesn’t work very well after a crash occurs.	In the event of a crash, stateless protocols work better because there doesn’t exist a state that needs to be restored. A server that failed during the crash can simply be restarted. 
+            Design	The server design is complex to implement.	The server design is simpler to implement.
+            Working State	They react only by the current state of a transaction or request.	They act independently by taking the previous or next request into consideration.
+           </p>
+        </li>
+        <li>
+            <b>
+                why we opt React instead of Angular or Veu?
+            </b>
+            <p>
+                Overall, Vue might be the best choice if you're a newer developer and not as familiar with advanced JavaScript concepts, while React is quite well suited for experienced programmers and developers who have worked with
+                 object-oriented JavaScript, functional JavaScript, and similar concepts.
+
+            </p>
+        </li>
+        <li>
+            <b>
+                what is single page application?
+            </b>
+            <pre>
+    *in terms of speed and performance for SPA ,no reloading is needed that is equal to high speed and responsiveness.
+    *MPA which is having slow speed and performance affected by reloading.
+    *A/C to coding reusable code for SPA.
+    *MPA ,maintenance required for each page.
+    *A/C to SEO SPA is having limited optimization.
+    *A/C to user experience SPA is very smooth and friendly.
+    *MPA user experience bad.
+    *there is no loading time required for <SPAn>SPA requires only endpoints.
+    *SPA  secures only endpoints.
+    *MPA secures end to end
+                
+            </pre>
+        </li>
+
+    </ol>
+</body>
+</html>
